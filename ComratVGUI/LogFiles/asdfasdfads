@@ -1,0 +1,244 @@
+1=> blacksmith , pizza oven , wood , FIRE
+	Possible answers from 2 set intersection => {}
+	Possible answers from 3 set intersection => {}
+!!!!!!!!No Convergence!!!!
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+2=> poseidon , knife , hay , FORK
+	Possible answers from 2 set intersection => {fork=4, hand=2}
+	Possible answers from 3 set intersection => {}
+vRat Answer :=> {fork=4}
+!!!!!!!!Correct Answer!!!!
+	FORK : poseidon = 1/9 = 3.7037   ##  knife = 3/44 = 2.2727   ##  hay = 0/0 = 0.0 ##  TotalLikelyHood = 5.9764
+	HAND : poseidon = 1/9 = 3.7037   ##  knife = 1/44 = 0.7576   ##  hay = 0/0 = 0.0 ##  TotalLikelyHood = 4.4613
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+3=> glove , handle , pen , HAND
+	Possible answers from 2 set intersection => {dustpan=2}
+	Possible answers from 3 set intersection => {}
+vRat Answer :=> {dustpan=2}
+!!!!!!!!InCorrect Answer!!!!
+	DUSTPAN : glove = 1/1 = 33.3333   ##  handle = 1/5 = 6.6667   ##  pen = 0/0 = 0.0 ##  TotalLikelyHood = 40.0
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+4=> bathtub , glass , beach , WATER
+	Possible answers from 2 set intersection => {container=2}
+	Possible answers from 3 set intersection => {water=3}
+vRat Answer :=> {water=3}
+!!!!!!!!Correct Answer!!!!
+	CONTAINER : bathtub = 1/9 = 3.7037   ##  glass = 1/12 = 2.7778   ##  beach = 0/0 = 0.0 ##  TotalLikelyHood = 6.4815
+	WATER : bathtub = 1/9 = 3.7037   ##  glass = 1/12 = 2.7778   ##  beach = 1/17 = 1.9608 ##  TotalLikelyHood = 6.4815
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+5=> stapler , pen , binder , PAPER
+	Possible answers from 2 set intersection => {document=3, office=5}
+	Possible answers from 3 set intersection => {paper=11}
+vRat Answer :=> {paper=11}
+!!!!!!!!Correct Answer!!!!
+	DOCUMENT : stapler = 1/32 = 1.0417   ##  pen = 0/0 = 0.0   ##  binder = 2/25 = 2.6667 ##  TotalLikelyHood = 1.0417
+	OFFICE : stapler = 4/32 = 4.1667   ##  pen = 0/0 = 0.0   ##  binder = 1/25 = 1.3333 ##  TotalLikelyHood = 4.1667
+	PAPER : stapler = 7/32 = 7.2917   ##  pen = 1/14 = 2.381   ##  binder = 3/25 = 4.0 ##  TotalLikelyHood = 9.6727
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+6=> witch , floor , dustpan , BROOM
+	Possible answers from 2 set intersection => {}
+	Possible answers from 3 set intersection => {broom=24}
+vRat Answer :=> {broom=24}
+!!!!!!!!Correct Answer!!!!
+	BROOM : witch = 9/78 = 3.8462   ##  floor = 4/57 = 2.3392   ##  dustpan = 11/48 = 7.6389 ##  TotalLikelyHood = 6.1854
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+7=> frame , bricks , paint , WALL
+	Possible answers from 2 set intersection => {painting=6, red=7, window=3}
+	Possible answers from 3 set intersection => {wall=22}
+vRat Answer :=> {wall=22}
+!!!!!!!!Correct Answer!!!!
+	PAINTING : frame = 4/52 = 2.5641   ##  bricks = 0/0 = 0.0   ##  paint = 2/63 = 1.0582 ##  TotalLikelyHood = 2.5641
+	RED : frame = 0/0 = 0.0   ##  bricks = 5/65 = 2.5641   ##  paint = 2/63 = 1.0582 ##  TotalLikelyHood = 2.5641
+	WALL : frame = 5/52 = 3.2051   ##  bricks = 10/65 = 5.1282   ##  paint = 7/63 = 3.7037 ##  TotalLikelyHood = 8.3333
+	WINDOW : frame = 2/52 = 1.2821   ##  bricks = 1/65 = 0.5128   ##  paint = 0/0 = 0.0 ##  TotalLikelyHood = 1.7949
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+8=> onion , pestle and mortar , vampire , GARLIC
+	Possible answers from 2 set intersection => {cooking=4, food=3, hand=3, table=2}
+	Possible answers from 3 set intersection => {garlic=4}
+vRat Answer :=> {garlic=4}
+!!!!!!!!Correct Answer!!!!
+	COOKING : onion = 2/40 = 1.6667   ##  pestle and mortar = 2/34 = 1.9608   ##  vampire = 0/0 = 0.0 ##  TotalLikelyHood = 3.6275
+	FOOD : onion = 2/40 = 1.6667   ##  pestle and mortar = 1/34 = 0.9804   ##  vampire = 0/0 = 0.0 ##  TotalLikelyHood = 2.6471
+	GARLIC : onion = 1/40 = 0.8333   ##  pestle and mortar = 2/34 = 1.9608   ##  vampire = 1/46 = 0.7246 ##  TotalLikelyHood = 2.7941
+	HAND : onion = 1/40 = 0.8333   ##  pestle and mortar = 2/34 = 1.9608   ##  vampire = 0/0 = 0.0 ##  TotalLikelyHood = 2.7941
+	TABLE : onion = 1/40 = 0.8333   ##  pestle and mortar = 1/34 = 0.9804   ##  vampire = 0/0 = 0.0 ##  TotalLikelyHood = 1.8137
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+9=> cuckoo clock , branch , egg , BIRD
+	Possible answers from 2 set intersection => {wood=8}
+	Possible answers from 3 set intersection => {bird=11, nest=12}
+vRat Answer :=> {nest=12}
+!!!!!!!!InCorrect Answer!!!!
+	BIRD : cuckoo clock = 5/55 = 3.0303   ##  branch = 2/61 = 1.0929   ##  egg = 4/75 = 1.7778 ##  TotalLikelyHood = 4.1232
+	NEST : cuckoo clock = 1/55 = 0.6061   ##  branch = 1/61 = 0.5464   ##  egg = 10/75 = 4.4444 ##  TotalLikelyHood = 1.1525
+	WOOD : cuckoo clock = 4/55 = 2.4242   ##  branch = 4/61 = 2.1858   ##  egg = 0/0 = 0.0 ##  TotalLikelyHood = 4.61
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+10=> money , wall , card , ATM CASH MACHINE
+	Possible answers from 2 set intersection => {bank=8, casino=2, door=3, wallet=2}
+	Possible answers from 3 set intersection => {}
+vRat Answer :=> {bank=8}
+!!!!!!!!InCorrect Answer!!!!
+	BANK : money = 6/54 = 3.7037   ##  wall = 0/0 = 0.0   ##  card = 2/48 = 1.3889 ##  TotalLikelyHood = 3.7037
+	CASINO : money = 1/54 = 0.6173   ##  wall = 0/0 = 0.0   ##  card = 1/48 = 0.6944 ##  TotalLikelyHood = 0.6173
+	DOOR : money = 0/0 = 0.0   ##  wall = 2/74 = 0.9009   ##  card = 1/48 = 0.6944 ##  TotalLikelyHood = 0.9009
+	WALLET : money = 1/54 = 0.6173   ##  wall = 0/0 = 0.0   ##  card = 1/48 = 0.6944 ##  TotalLikelyHood = 0.6173
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+11=> bulb , storm , circuit board , ELECTRICITY
+	Possible answers from 2 set intersection => {wire=2}
+	Possible answers from 3 set intersection => {}
+vRat Answer :=> {wire=2}
+!!!!!!!!InCorrect Answer!!!!
+	WIRE : bulb = 1/17 = 1.9608   ##  storm = 0/0 = 0.0   ##  circuit board = 1/12 = 2.7778 ##  TotalLikelyHood = 1.9608
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+12=> cow , knife , grill , STEAK MEAT
+	Possible answers from 2 set intersection => {food=5}
+	Possible answers from 3 set intersection => {cheese=3, meat=11}
+vRat Answer :=> {meat=11}
+!!!!!!!!Correct Answer!!!!
+	CHEESE : cow = 1/57 = 0.5848   ##  knife = 1/44 = 0.7576   ##  grill = 1/45 = 0.7407 ##  TotalLikelyHood = 1.3424
+	FOOD : cow = 0/0 = 0.0   ##  knife = 4/44 = 3.0303   ##  grill = 1/45 = 0.7407 ##  TotalLikelyHood = 3.0303
+	MEAT : cow = 4/57 = 2.3392   ##  knife = 3/44 = 2.2727   ##  grill = 4/45 = 2.963 ##  TotalLikelyHood = 4.6119
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+13=> suitcase , cloud , stewardess , AIRPLANE
+	Possible answers from 2 set intersection => {aircraft=2, airplane=2, black=3, plane=10, soft=2, stress=2}
+	Possible answers from 3 set intersection => {}
+vRat Answer :=> {plane=10}
+!!!!!!!!Correct Answer!!!!
+	AIRCRAFT : suitcase = 1/58 = 0.5747   ##  cloud = 0/0 = 0.0   ##  stewardess = 1/42 = 0.7937 ##  TotalLikelyHood = 0.5747
+	AIRPLANE : suitcase = 0/0 = 0.0   ##  cloud = 1/45 = 0.7407   ##  stewardess = 1/42 = 0.7937 ##  TotalLikelyHood = 0.7407
+	BLACK : suitcase = 2/58 = 1.1494   ##  cloud = 1/45 = 0.7407   ##  stewardess = 0/0 = 0.0 ##  TotalLikelyHood = 1.8901
+	PLANE : suitcase = 4/58 = 2.2989   ##  cloud = 0/0 = 0.0   ##  stewardess = 6/42 = 4.7619 ##  TotalLikelyHood = 2.2989
+	SOFT : suitcase = 1/58 = 0.5747   ##  cloud = 1/45 = 0.7407   ##  stewardess = 0/0 = 0.0 ##  TotalLikelyHood = 1.3154
+	STRESS : suitcase = 1/58 = 0.5747   ##  cloud = 0/0 = 0.0   ##  stewardess = 1/42 = 0.7937 ##  TotalLikelyHood = 0.5747
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+14=> shoe , ball , treadmill , FOOT
+	Possible answers from 2 set intersection => {}
+	Possible answers from 3 set intersection => {}
+!!!!!!!!No Convergence!!!!
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+15=> nest , omelette , chick , EGG
+	Possible answers from 2 set intersection => {baby=2, eggs=8, feather=3, potatoes=4, yellow=5}
+	Possible answers from 3 set intersection => {egg=34}
+vRat Answer :=> {egg=34}
+!!!!!!!!Correct Answer!!!!
+	BABY : nest = 1/74 = 0.4505   ##  omelette = 0/0 = 0.0   ##  chick = 1/49 = 0.6803 ##  TotalLikelyHood = 0.4505
+	EGG : nest = 10/74 = 4.5045   ##  omelette = 16/72 = 7.4074   ##  chick = 8/49 = 5.4422 ##  TotalLikelyHood = 11.9119
+	EGGS : nest = 3/74 = 1.3514   ##  omelette = 5/72 = 2.3148   ##  chick = 0/0 = 0.0 ##  TotalLikelyHood = 3.6662
+	FEATHER : nest = 2/74 = 0.9009   ##  omelette = 0/0 = 0.0   ##  chick = 1/49 = 0.6803 ##  TotalLikelyHood = 0.9009
+	POTATOES : nest = 0/0 = 0.0   ##  omelette = 2/72 = 0.9259   ##  chick = 2/49 = 1.3605 ##  TotalLikelyHood = 0.9259
+	YELLOW : nest = 0/0 = 0.0   ##  omelette = 2/72 = 0.9259   ##  chick = 3/49 = 2.0408 ##  TotalLikelyHood = 0.9259
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+16=> drying rack , mannequin , wardrobe , CLOTHES
+	Possible answers from 2 set intersection => {cloth=2, wood=3}
+	Possible answers from 3 set intersection => {clothes=14, clothing=3}
+vRat Answer :=> {clothes=14}
+!!!!!!!!Correct Answer!!!!
+	CLOTH : drying rack = 1/40 = 0.8333   ##  mannequin = 0/0 = 0.0   ##  wardrobe = 1/29 = 1.1494 ##  TotalLikelyHood = 0.8333
+	CLOTHES : drying rack = 4/40 = 3.3333   ##  mannequin = 5/34 = 4.902   ##  wardrobe = 5/29 = 5.7471 ##  TotalLikelyHood = 8.2353
+	CLOTHING : drying rack = 1/40 = 0.8333   ##  mannequin = 1/34 = 0.9804   ##  wardrobe = 1/29 = 1.1494 ##  TotalLikelyHood = 1.8137
+	WOOD : drying rack = 1/40 = 0.8333   ##  mannequin = 0/0 = 0.0   ##  wardrobe = 2/29 = 2.2989 ##  TotalLikelyHood = 0.8333
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+17=> scribe monk , goose , parchment , FEATHER QUILL STYLUS
+	Possible answers from 2 set intersection => {feather=3, ink=4, knowledge=2, monks=2, paper=8, pen=2}
+	Possible answers from 3 set intersection => {quill=6}
+vRat Answer :=> {quill=6}
+!!!!!!!!Correct Answer!!!!
+	FEATHER : scribe monk = 0/0 = 0.0   ##  goose = 2/39 = 1.7094   ##  parchment = 1/37 = 0.9009 ##  TotalLikelyHood = 1.7094
+	INK : scribe monk = 3/38 = 2.6316   ##  goose = 0/0 = 0.0   ##  parchment = 1/37 = 0.9009 ##  TotalLikelyHood = 2.6316
+	KNOWLEDGE : scribe monk = 1/38 = 0.8772   ##  goose = 0/0 = 0.0   ##  parchment = 1/37 = 0.9009 ##  TotalLikelyHood = 0.8772
+	MONKS : scribe monk = 1/38 = 0.8772   ##  goose = 0/0 = 0.0   ##  parchment = 1/37 = 0.9009 ##  TotalLikelyHood = 0.8772
+	PAPER : scribe monk = 4/38 = 3.5088   ##  goose = 0/0 = 0.0   ##  parchment = 4/37 = 3.6036 ##  TotalLikelyHood = 3.5088
+	PEN : scribe monk = 1/38 = 0.8772   ##  goose = 0/0 = 0.0   ##  parchment = 1/37 = 0.9009 ##  TotalLikelyHood = 0.8772
+	QUILL : scribe monk = 3/38 = 2.6316   ##  goose = 1/39 = 0.8547   ##  parchment = 2/37 = 1.8018 ##  TotalLikelyHood = 3.4863
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+18=> galaxy , summer , tanning machine , SUN
+	Possible answers from 2 set intersection => {hot=2, sweat=2}
+	Possible answers from 3 set intersection => {sun=3}
+vRat Answer :=> {sun=3}
+!!!!!!!!Correct Answer!!!!
+	HOT : galaxy = 0/0 = 0.0   ##  summer = 1/16 = 2.0833   ##  tanning machine = 1/10 = 3.3333 ##  TotalLikelyHood = 2.0833
+	SUN : galaxy = 1/14 = 2.381   ##  summer = 1/16 = 2.0833   ##  tanning machine = 1/10 = 3.3333 ##  TotalLikelyHood = 4.4643
+	SWEAT : galaxy = 0/0 = 0.0   ##  summer = 1/16 = 2.0833   ##  tanning machine = 1/10 = 3.3333 ##  TotalLikelyHood = 2.0833
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+19=> car , map , road sign , ROAD/DIRECTION
+	Possible answers from 2 set intersection => {city=3, direction=2, metal=2, red=2, route=2, traffic=3, traffic light=3, travel=4}
+	Possible answers from 3 set intersection => {road=14, street=3}
+vRat Answer :=> {road=14}
+!!!!!!!!Correct Answer!!!!
+	CITY : car = 0/0 = 0.0   ##  map = 2/38 = 1.7544   ##  road sign = 1/46 = 0.7246 ##  TotalLikelyHood = 1.7544
+	DIRECTION : car = 0/0 = 0.0   ##  map = 1/38 = 0.8772   ##  road sign = 1/46 = 0.7246 ##  TotalLikelyHood = 0.8772
+	METAL : car = 1/61 = 0.5464   ##  map = 0/0 = 0.0   ##  road sign = 1/46 = 0.7246 ##  TotalLikelyHood = 0.5464
+	RED : car = 1/61 = 0.5464   ##  map = 0/0 = 0.0   ##  road sign = 1/46 = 0.7246 ##  TotalLikelyHood = 0.5464
+	ROAD : car = 7/61 = 3.8251   ##  map = 2/38 = 1.7544   ##  road sign = 5/46 = 3.6232 ##  TotalLikelyHood = 5.5795
+	ROUTE : car = 0/0 = 0.0   ##  map = 1/38 = 0.8772   ##  road sign = 1/46 = 0.7246 ##  TotalLikelyHood = 0.8772
+	STREET : car = 1/61 = 0.5464   ##  map = 1/38 = 0.8772   ##  road sign = 1/46 = 0.7246 ##  TotalLikelyHood = 1.4236
+	TRAFFIC : car = 1/61 = 0.5464   ##  map = 0/0 = 0.0   ##  road sign = 2/46 = 1.4493 ##  TotalLikelyHood = 0.5464
+	TRAFFIC LIGHT : car = 2/61 = 1.0929   ##  map = 0/0 = 0.0   ##  road sign = 1/46 = 0.7246 ##  TotalLikelyHood = 1.0929
+	TRAVEL : car = 0/0 = 0.0   ##  map = 3/38 = 2.6316   ##  road sign = 1/46 = 0.7246 ##  TotalLikelyHood = 2.6316
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+20=> comb , razor , shampoo , HAIR
+	Possible answers from 2 set intersection => {bald=4, brush=4, foam=6, hand=2, head=6, shower=10}
+	Possible answers from 3 set intersection => {bathroom=9, hair=29, mirror=8, water=6}
+vRat Answer :=> {hair=29}
+!!!!!!!!Correct Answer!!!!
+	BALD : comb = 2/62 = 1.0753   ##  razor = 0/0 = 0.0   ##  shampoo = 2/59 = 1.1299 ##  TotalLikelyHood = 1.0753
+	BATHROOM : comb = 4/62 = 2.1505   ##  razor = 2/55 = 1.2121   ##  shampoo = 3/59 = 1.6949 ##  TotalLikelyHood = 3.3626
+	BRUSH : comb = 2/62 = 1.0753   ##  razor = 0/0 = 0.0   ##  shampoo = 2/59 = 1.1299 ##  TotalLikelyHood = 1.0753
+	FOAM : comb = 0/0 = 0.0   ##  razor = 2/55 = 1.2121   ##  shampoo = 4/59 = 2.2599 ##  TotalLikelyHood = 1.2121
+	HAIR : comb = 15/62 = 8.0645   ##  razor = 3/55 = 1.8182   ##  shampoo = 11/59 = 6.2147 ##  TotalLikelyHood = 9.8827
+	HAND : comb = 1/62 = 0.5376   ##  razor = 1/55 = 0.6061   ##  shampoo = 0/0 = 0.0 ##  TotalLikelyHood = 1.1437
+	HEAD : comb = 2/62 = 1.0753   ##  razor = 0/0 = 0.0   ##  shampoo = 4/59 = 2.2599 ##  TotalLikelyHood = 1.0753
+	MIRROR : comb = 3/62 = 1.6129   ##  razor = 3/55 = 1.8182   ##  shampoo = 2/59 = 1.1299 ##  TotalLikelyHood = 3.4311
+	SHOWER : comb = 2/62 = 1.0753   ##  razor = 0/0 = 0.0   ##  shampoo = 8/59 = 4.5198 ##  TotalLikelyHood = 1.0753
+	WATER : comb = 2/62 = 1.0753   ##  razor = 2/55 = 1.2121   ##  shampoo = 2/59 = 1.1299 ##  TotalLikelyHood = 2.2874
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+21=> syringe , sewing string , bee , NEEDLE
+	Possible answers from 2 set intersection => {black=2, needle=3, white=3}
+	Possible answers from 3 set intersection => {}
+vRat Answer :=> {needle=3, white=3}
+!!!!!!!!Correct Answer!!!!
+	BLACK : syringe = 0/0 = 0.0   ##  sewing string = 1/10 = 3.3333   ##  bee = 1/50 = 0.6667 ##  TotalLikelyHood = 3.3333
+	NEEDLE : syringe = 2/42 = 1.5873   ##  sewing string = 1/10 = 3.3333   ##  bee = 0/0 = 0.0 ##  TotalLikelyHood = 4.9206
+	WHITE : syringe = 2/42 = 1.5873   ##  sewing string = 1/10 = 3.3333   ##  bee = 0/0 = 0.0 ##  TotalLikelyHood = 4.9206
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+22=> chair , plate , tablecloth , TABLE
+	Possible answers from 2 set intersection => {dinner=2, dishes=2, eating=2, fork=5, glass=3, knife=6, napkin=2, spoon=4}
+	Possible answers from 3 set intersection => {food=9, table=16}
+vRat Answer :=> {table=16}
+!!!!!!!!Correct Answer!!!!
+	DINNER : chair = 0/0 = 0.0   ##  plate = 1/45 = 0.7407   ##  tablecloth = 1/40 = 0.8333 ##  TotalLikelyHood = 0.7407
+	DISHES : chair = 0/0 = 0.0   ##  plate = 1/45 = 0.7407   ##  tablecloth = 1/40 = 0.8333 ##  TotalLikelyHood = 0.7407
+	EATING : chair = 1/40 = 0.8333   ##  plate = 1/45 = 0.7407   ##  tablecloth = 0/0 = 0.0 ##  TotalLikelyHood = 1.574
+	FOOD : chair = 1/40 = 0.8333   ##  plate = 5/45 = 3.7037   ##  tablecloth = 3/40 = 2.5 ##  TotalLikelyHood = 4.537
+	FORK : chair = 0/0 = 0.0   ##  plate = 4/45 = 2.963   ##  tablecloth = 1/40 = 0.8333 ##  TotalLikelyHood = 2.963
+	GLASS : chair = 0/0 = 0.0   ##  plate = 2/45 = 1.4815   ##  tablecloth = 1/40 = 0.8333 ##  TotalLikelyHood = 1.4815
+	KNIFE : chair = 0/0 = 0.0   ##  plate = 5/45 = 3.7037   ##  tablecloth = 1/40 = 0.8333 ##  TotalLikelyHood = 3.7037
+	NAPKIN : chair = 0/0 = 0.0   ##  plate = 1/45 = 0.7407   ##  tablecloth = 1/40 = 0.8333 ##  TotalLikelyHood = 0.7407
+	SPOON : chair = 0/0 = 0.0   ##  plate = 3/45 = 2.2222   ##  tablecloth = 1/40 = 0.8333 ##  TotalLikelyHood = 2.2222
+	TABLE : chair = 8/40 = 6.6667   ##  plate = 4/45 = 2.963   ##  tablecloth = 4/40 = 3.3333 ##  TotalLikelyHood = 9.6297
+-------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------
+
+Total Number of Correct Answer: => 16
+############################################################################################################
+############################################################################################################

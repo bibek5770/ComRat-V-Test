@@ -1,0 +1,22 @@
+glove #handle #pen  #HAND
+bathtub #glass #beach #WATER
+blacksmith#pizza oven #wood #FIRE
+bulb # storm # circuit board # ELECTRICITY
+shoe #ball #treadmill #FOOT
+galaxy #summer #tanning machine #SUN
+Poseidon #knife #hay #FORK
+cow #knife #grill #STEAK MEAT
+scribe monk #goose #parchment #FEATHER QUILL STYLUS
+drying rack# mannequin #wardrobe# CLOTHES
+chair #plate #tablecloth #TABLE
+onion #pestle and mortar #vampire #GARLIC
+car #map #road sign # ROAD/DIRECTION
+syringe #sewing string #bee #NEEDLE
+money #wall #card # ATM CASH MACHINE
+suitcase# cloud# stewardess# AIRPLANE
+stapler# pen# binder# PAPER
+frame #bricks #paint# WALL
+witch #floor #dustpan #broom
+nest #omelette #chick# EGG
+comb #razor #shampoo #HAIR
+cuckoo clock# branch# egg# BIRD
